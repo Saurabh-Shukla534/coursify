@@ -1,0 +1,116 @@
+/*.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+}
+.navbar-brand {
+    padding-top: 0;
+    width: 150px;
+}
+.boxshadow {
+    color:rgba(86, 124, 173, 0.15) 0px 4px 30px;
+}
+.displaynone {
+    display: none;
+}
+.visible {
+    visibility: hidden;
+}
+*/
+
+.icon-bar {
+    width: 28px;
+    height: 3px;
+    background-color: #393939;
+    display: block;
+    transition: all .2s;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+.navbar-expand-xl .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #ef9a9a;
+  }
+.search{
+    width: 400px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #393939;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.btn-nav2 {
+    min-width: 150px;
+    font-family: roboto;
+    font-weight: 500;
+    border: 2px solid #227aeb;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: #fff;
+    color: #227aeb;
+    padding: 8px 28px;
+    position: relative;
+    outline: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+.btnstyle {
+    font-size: 18px;
+    min-width: 124px;
+    font-family: roboto;
+    font-weight: 500;
+    background: #227aeb;
+    border-radius: 40px;
+    border: 2px solid #227aeb;
+    color: #fff;
+    padding: 8px 28px;
+    position: relative;
+    outline: 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: color .1s linear .1s;
+    z-index: 1;
+}
+.cardhead{
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: bold;
+}
+.cardstyle{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 500;
+    text-align: center;
+    height: 180px;
+}
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
